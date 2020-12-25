@@ -1,0 +1,23 @@
+{
+  "name": "bankist",
+  "version": "1.0.0",
+  "description": "banking app",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leo-H-Cao/Bankist.git"
+  },
+  "author": "Leo Cao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leo-H-Cao/Bankist/issues"
+  },
+  "homepage": "https://github.com/Leo-H-Cao/Bankist#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
