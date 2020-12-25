@@ -2,10 +2,10 @@
   "name": "bankist",
   "version": "1.0.0",
   "description": "banking app",
-  "main": "index.html",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --out-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/Leo-H-Cao/Bankist#readme",
   "devDependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "core-js": "^3.8.1"
   }
 }
